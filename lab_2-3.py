@@ -23,5 +23,5 @@ print(type(a))
 a = bool(a)
 a == 2
 print(a)
-#result is true
+#result is true because a is a boolean and a does eqaul 2
 
