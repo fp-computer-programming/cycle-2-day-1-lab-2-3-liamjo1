@@ -7,3 +7,21 @@
 # Convert a to a string. Check its type with a print statement. What has changed?
 
 # Convert a to a Boolean. Print the result of a == 2. What is the result? Why? (Answer as a comment)
+
+
+a = 2
+print(type(a))
+
+a = float(a)
+print(type(a))
+# type has changed to 'class float'
+
+a = str('a')
+print(type(a))
+# type has changed to 'class str'
+
+a = bool(a)
+a == 2
+print(a)
+#result is true because a is a boolean and a does eqaul 2
+
